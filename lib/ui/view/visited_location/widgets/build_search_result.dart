@@ -114,9 +114,8 @@ class BuildSearchResult extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  SizedText(
+                  Text(
                     formatCurrency.format(350),
-                    maxWidth: 230,
                     style: GoogleFonts.poppins(
                       color: AppColors.primary,
                       fontWeight: FontWeight.w600,
